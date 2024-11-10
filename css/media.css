@@ -1,0 +1,781 @@
+@media (max-width : 1440px) {
+/*************************************** Home Page Media Query ***************************************/
+/*****************************************************************************************************/
+    h1 {font-size: 38px; line-height: 50px;}
+    h2 {font-size: 38px;}
+    h3 {font-size: 20px;}
+    h4 {font-size: 18px;}
+    p {font-size: 16px; line-height: 23px;}
+    .h2-p-gap {margin-bottom: 14px;}
+    .sec-mt-75 {margin-top: 75px;}
+    .primary-btn {font-size: 14px; padding: 14px 22px 14px 22px;}
+    .secondary-btn {font-size: 14px; padding: 12px 24px 12px 24px;}
+    .txt-btn-box .btn {padding: 12px; border-radius: 40px;}
+
+    .night-toggle {right: 30px;}
+
+    .logo img {height: 30px; width: 30px;}
+    .logo span {font-size: 20px;}
+    header nav .container .row .menu ul li {font-size: 14px;}
+
+    .home-section .container .main .left-text .upper-box p {font-size: 14px; margin: 0 0 10px 0;}
+    .home-section .container .main .left-text p {line-height: 24px;}
+    .home-section .container .main .right-img::after , 
+    .home-section .container .main .right-img.Day-right-img-vector::after {
+        right: calc(6vw - 100px);}
+
+    .our-product-section .bottom-content .middle {padding: 0 25px;}
+
+    .cases-section .main-content .row .col-common h3 {font-size: 26px; margin-bottom: 12px;}
+    .cases-section .main-content .row .col-bg {padding: 35px; row-gap: 20px;}
+    .cases-section .main-content .row .col-common .main-box .sub-box {padding-right: 40px;}
+    .cases-section .main-content .row .col-common .main-box .sub-box span {font-size: 40px;}
+
+    .features-section .main-content .main-row .left-col {padding: 35px 25px;}
+
+    .testimonial-section .main-content .box {padding: 0 25px;}
+
+    footer {margin-top: 100px;}
+    footer .footer-content {padding: 60px 0px;}
+    footer .footer-content ul {margin-top: 30px;}
+    footer .footer-content .line {margin: 40px 0;}
+
+/*************************************** Careers Page Media Query *************************************/
+/*****************************************************************************************************/
+    .heading-para {max-width: 1120px;}
+    .career-section h1  {font-size: 48px; line-height: 58px;}
+
+    .career-section .main-row ,
+    .about-section .main-row ,
+    .security-section .main-row {
+        padding: 45px;
+    }
+    .career-section .main-row .right-img ,
+    .about-section .main-row .right-img ,
+    .security-section .main-row .right-img  {
+        height: 600px;
+    }
+    .career-section .main-row .right-img::before ,
+    .about-section .main-row .right-img::before ,
+    .security-section .main-row .right-img::before {
+        height: 450px; width: 450px;
+    }
+
+    .our-value .main-content .row .col span {font-size: 45px; margin-bottom: 20px;}
+
+    .benefit-section .main-content ,
+    .protect-section .main-content {
+        margin-top: 65px;
+    }
+
+    .benefit-section .main-content .row .col .sub-box ,
+    .protect-section .main-content .row .col .sub-box {
+        padding: 40px 35px 40px 35px;
+    }
+    
+    .job-section .main-content {row-gap: 10px;}
+    .job-section .main-content .col {padding: 45px 30px; width: 49.5%;}
+    .job-section .main-content .col .span-box {display: flex;}
+    .job-section .main-content .col span {font-size: 16px;}
+
+/*************************************** About Page Media Query **************************************/
+/*****************************************************************************************************/
+    .mission-section .main-content .row .img1 {height: 430px;}
+    .mission-section .main-content .row .img-box {width: 40%;}
+    .mission-section .main-content .second-row {margin-top: -10px;}
+
+/*************************************** Security Page Media Query ************************************/
+/*****************************************************************************************************/
+    .protect-section .main-content .row {padding: 50px 50px 0 50px;}
+}
+
+@media (max-width : 1024px) {
+/*************************************** Home Page Media Query ***************************************/
+/*****************************************************************************************************/
+    h1 {font-size: 34px; line-height: 40px;}
+    h2 {font-size: 32px;}
+    h3 {font-size: 19px;}
+    h4 {font-size: 17px;}
+    p {font-size: 15px; line-height: 23px;}
+    .h2-p-gap {margin-bottom: 10px;}
+    .sec-mt-75 {margin-top: 75px;}
+    .primary-btn {font-size: 14px; padding: 11px 18px 11px 18px;}
+    .secondary-btn {font-size: 14px; padding: 12px 20px 12px 20px;}
+    .txt-btn-box .btn {padding: 10px;}
+    .txt-btn-box {margin-top: 10px;}
+
+    header nav {padding: 30px 0;}
+
+    .night-toggle {right: 14px; top: 54px;}
+
+    .home-section .container .main {padding-top: 25px;}
+    .home-section .container .main .right-img::after ,
+    .home-section .container .main .right-img.Day-right-img-vector::after {
+        right: calc(6vw - 107px); background-size: contain; height: 225px; width: 300px;}
+    .home-section .container .main .left-text p {margin: 15px 0 25px 0;}
+    .home-section .container .main .left-text .upper-box p {width: 310px;}
+
+    .our-product-section .bottom-content .left {padding-right: 15px;}
+    .our-product-section .bottom-content .middle {padding: 0px 10px;}
+    .our-product-section .bottom-content .right {padding-left: 15px;}
+    .our-product-section .bottom-content .box .para {line-height: 24px;}
+    .our-product-section .bottom-content .box img {height: 85px; width: 85px;}
+
+    .cases-section .main-content {margin-top: 35px;}
+    .cases-section .main-content .row .col {width: 49%;}
+    .cases-section .main-content .row .col-bg {padding: 25px; row-gap: 15px;}
+    .cases-section .main-content .row .col .sub-col {height: 180px; width: 48%; padding: 10px;}
+    .cases-section .main-content .row .col .sub-col h4 {margin-top: 10px;}
+    .cases-section .main-content .row .col-common {padding-top: 10px;}
+    .cases-section .main-content .row .col-common .main-box {margin: 15px 0;}
+    .cases-section .main-content .row .col-common .main-box .sub-box {padding-right: 10px;}
+
+
+    .features-section .para {width: 91%;}
+    .features-section .main-content {margin-top: 50px;}
+    .features-section .main-content .main-row .left-col {width: 23%; padding: 25px 10px;}
+    .features-section .main-content .main-row .right-col {width: 75%;}
+    .features-section .main-content .main-row .right-col .sub-row .sub-right-col {padding: 15px 15px 40px 15px;}
+    .features-section .main-content .main-row .right-col .sub-row .sub-right-col .upper-line {margin-bottom: 15px;}
+    .features-section .main-content .main-row .right-col .sub-row .sub-right-col .upper-line img {height: 28px; width: 28px;}
+
+    .FAQ-section .main-content {margin-top: 50px; row-gap: 20px;}
+    .FAQ-section .main-content .row .col {height: 380px; width: 49%; padding: 30px 20px;}
+
+    .FAQ-section .main-content .row .col .line {margin: 20px 0;}
+
+    .testimonial-section {padding-bottom: 150px;}
+    .testimonial-section .main-content {margin-top: 50px;}
+    .testimonial-section .main-content .box {padding: 0px 20px; width: 32.5%;}
+    .testimonial-section .main-content .box .upper-img {margin-bottom: 30px;}
+    .testimonial-section .main-content .box .upper-img hr {width: 23%;}
+    .testimonial-section .main-content .box .upper-img img {margin: 0 15px;}
+    .testimonial-section .main-content .box p {margin-bottom: 25px;}
+
+
+    .banner-section .banner-content {padding: 25px 35px;}
+    .banner-section .banner-content .text h2 {font-size: 36px; margin-bottom: 10px;}
+
+    footer {margin-top: 80px;}
+    footer .footer-content {padding: 40px 0px;}
+    footer .footer-content ul {margin-top: 20px;}
+    footer .footer-content .line {margin: 25px 0;}
+    footer .footer-content .contact div span {font-size: 16px;}
+    footer .footer-content .last-line .left img {height: 40px; width: 40px;}
+
+    .slick-prev {left: 42%;}
+    .slick-next {right: 45%;}
+    .slick-prev, .slick-next {top: 115%;}
+
+/*************************************** Careers Page Media Query *************************************/
+/*****************************************************************************************************/
+    .career-section .main-row , 
+    .about-section .main-row , 
+    .security-section .main-row {
+        padding: 20px;
+    }
+    .career-section .main-row .left-content .text ,
+    .about-section .main-row .left-content .text ,
+    .security-section .main-row .left-content .text {
+        padding: 25px;
+    }
+    .career-section h1 {
+        font-size: 34px; line-height: 40px;
+    }
+    .career-section .main-row .left-content .text p , 
+    .about-section .main-row .left-content .text p ,
+    .security-section .main-row .left-content .text p {
+        margin-top: 10px;
+    }
+    .career-section .main-row .right-img , 
+    .about-section .main-row .right-img , 
+    .security-section .main-row .right-img {
+        height: 420px;
+    }
+    .career-section .main-row .right-img::before , 
+    .about-section .main-row .right-img::before , 
+    .security-section .main-row .right-img::before {
+        height: 300px; width: 300px;
+    }
+
+    .our-value .main-content {margin-top: 50px; row-gap: 50px;}
+    .our-value .main-content .row .col span {
+        font-size: 32px; margin-bottom: 15px;
+    }
+    .benefit-section .main-content .row ,
+    .protect-section .main-content .row {
+        row-gap: 20px;
+    }
+    .benefit-section .main-content .row .col .sub-box ,
+    .protect-section .main-content .row .col .sub-box {
+        padding: 30px 25px 30px 25px; width: 49%;
+    }
+    .benefit-section .main-content .row .col .sub-box .upper-line img ,
+    .protect-section .main-content .row .col .sub-box .upper-line img {
+        height: 75px; width: 75px;
+    }
+
+    .job-section .main-content {margin-top: 50px;}
+    .job-section .main-content .col {padding: 45px 30px; width: 100%;}
+    job-section .main-content .col .sp-btn {margin-top: 0px;}
+
+    .benefit-section .main-content .row .col .sub-box .para ,
+    .protect-section .main-content .row .col .sub-box .para {
+        min-height: 165px;
+    } 
+
+/*************************************** About Page Media Query **************************************/
+/*****************************************************************************************************/
+    .mission-section .main-content .row {flex-direction: column;}
+    .mission-section .main-content {margin-top: 60px;}
+    .mission-section .main-content .second-row {flex-direction: column-reverse; margin-top: 50px;}
+    .mission-section .main-content .row .img-box {width: 60%;}
+    .mission-section .main-content .row .text-box , 
+    .mission-section .main-content .second-row .text-box{
+        border-top: 1px solid var(--text-span);
+        border-left : none; border-right: none;
+        padding: 30px 0 0 0; width: 60%;
+        text-align: center;
+    }
+    .mission-section .main-content .row .img1, 
+    .mission-section .main-content .row .img2 {
+        display: block;
+    }
+
+    .press-release-section .main-content {margin-top: 60px; flex-direction: column; row-gap: 50px;}
+    .press-release-section .main-content .col {width: 100%; padding: 50px;}
+
+/*************************************** Security Page Media Query ************************************/
+/*****************************************************************************************************/
+    .protect-section .main-content .row {padding: 35px 35px 0 35px;}
+    .protect-section .main-content .row::before {height: 76%;}
+}
+
+@media (max-width : 768px) {
+/*************************************** Home Page Media Query ***************************************/
+/*****************************************************************************************************/
+    h1 {font-size: 34px; line-height: 40px; text-align: center;}
+    h2 {font-size: 32px; text-align: center;}
+    h3 {font-size: 20px; text-align: center;}
+    h4 {font-size: 17px; text-align: center;}
+    p {font-size: 15px; line-height: 23px; text-align: center;}
+    .h2-p-gap {margin-bottom: 10px;}
+    .sec-mt-75 {margin-top: 75px;}
+    .primary-btn {font-size: 14px; padding: 11px 18px 11px 18px;}
+    .secondary-btn {font-size: 14px; padding: 12px 20px 12px 20px;}
+    .txt-btn-box {
+        margin-top: 10px; flex-direction: column; justify-content: center; align-items: center;
+    }
+    .txt-btn-box p {width: 100%;}
+    .txt-btn-box .btn {padding: 15px; margin-top: 20px;}
+    .container {
+        max-width: calc(380px + (700 - 380) * ((100vw - 425px) / (768 - 425)));
+    }
+
+    .night-toggle {right: 140px; top: 55px; z-index: 1;}
+
+    .hamburger {background-color: var(--text-span); padding: 14px 12px; border-radius: 15px; display: inline;}
+    .hamburger-box {height: 20px;}
+    .hamburger-inner, .hamburger-inner::before, 
+    .hamburger-inner::after {background-color: var(--bars); height: 3px;}
+    .hamburger-inner::after {width: 55%; right: 0;}
+    .hamburger--elastic.is-active .hamburger-inner::after {width: 100%;}
+
+    header nav .container .row {padding: 10px 20px; position: relative;}
+    header nav .container .row .menu {
+        display: none;  width: 100%;
+        position: absolute;
+        top: 120%; left: 0;
+        background-color: var(--bg-black);
+        border: 1px solid var(--btn-border);
+        border-radius: 25px; z-index: 5;
+    }
+    header nav .container .row .menu.active-menu {display: block;}
+    header nav .container .row .menu .btn {display: block; margin: 0px 0px 20px 30px;}
+    header nav .container .row .menu ul {display: block; padding: 30px 70px 30px 30px;}
+    header nav .container .row .menu ul li {padding: 10px 20px;}
+    header nav .container .row .menu ul li + li {margin-top: 20px; margin-left: 0; padding: 10px 20px;}
+    header nav .container .row .btn {display: none;}
+    .logo img {height: 36px; width: 36px;}
+
+    .home-section .container .main {
+        flex-direction: column; justify-content: center;
+        text-align: center;
+    }
+    .home-section .container .main .left-text,
+    .home-section .container .main .right-img {
+        width: 100%;
+    }
+    .home-section .container .main .right-img,
+    .home-section .container .main .right-img.Day-right-img {
+        background-size: 80% 80%;
+        background-position: center center;
+        height: 750px;
+        /* height: calc(350px + (750 - 350) * ((100vw - 300px) / (768 - 300))); */
+    }
+    .home-section .container .main .right-img::after,
+    .home-section .container .main .right-img.Day-right-img-vector::after{
+        right: calc(5vw - 16px);
+        background-size: contain; height: 240px;
+        width: 300px; top: 78px;
+    }
+    .home-section .container .main .left-text .upper-box {
+        width: 100%; display: flex;
+        justify-content: center; align-items: center;
+    }
+    .home-section .container .main .left-text .upper-box p {
+        padding: 14px 20px; border-radius: 25px;
+        margin: 0 0 15px 0;
+    }
+
+    .our-product-section .bottom-content {
+        flex-direction: column;
+        padding: 0 100px; row-gap: 30px;
+    }
+    .our-product-section .bottom-content .left {padding: 0;}
+    .our-product-section .bottom-content .middle {
+        padding: 30px 0;
+        border-top: 1px solid var(--btn-border);
+        border-bottom: 1px solid var(--btn-border);
+        border-right: none; border-left: none;
+    }
+    .our-product-section .bottom-content .right {padding: 0;}
+    .our-product-section .bottom-content .box img {margin-bottom: 15px;}
+
+    .cases-section .main-content .row {flex-direction: column;}
+    .cases-section .main-content .row:nth-child(2) {
+        flex-direction: column-reverse;
+    }
+    .cases-section .main-content .row .upper-col {border-radius: 30px;}
+    .cases-section .main-content .row .col {
+        width: 100%;
+    }
+    .cases-section .main-content .row .col-common {
+        padding: 30px 0; text-align: center;
+    }
+    .cases-section .main-content .row .col-common .main-box {
+        margin: 25px 0;
+    }
+    .cases-section .main-content .row .col-common .main-box .sub-box {
+        padding-right: 0px;
+    }
+    .cases-section .main-content .row .col-common .main-box .sub-box span {
+        font-size: 40px; text-align: center;
+        width: 100%;
+    }
+    .cases-section .main-content .row .col .sub-col {padding: 20px;}
+    .cases-section .main-content .row .col .sub-col h4 {margin-top: 15px;}
+
+    .features-section .para {width: 100%;}
+    .features-section .main-content .main-row {flex-direction: column;}
+    .features-section .main-content .main-row .left-col {width: 100%; padding: 15px 0;}
+    .features-section .main-content .main-row .right-col {
+        width: 100%;
+        margin-top: 25px; row-gap: 25px;
+    }
+    .features-section .main-content .main-row .left-col .middle-btn {
+        margin: 0px 0;
+    }
+    .features-section .main-content .main-row .right-col .sub-row .sub-right-col {
+        padding: 15px 15px 35px 15px; width: 48%;
+    }
+    .features-section .main-content .main-row .right-col .sub-row .sub-right-col p {text-align: left;}
+
+    .FAQ-section .main-content .row {row-gap: 15px;}
+    .FAQ-section .main-content .row .col {height: 510px; padding: 25px 20px;}
+    .FAQ-section .main-content .row .col .line {margin: 15px 0;}
+    .FAQ-section .main-content .row .col h3,
+    .FAQ-section .main-content .row .col p {text-align: left;}
+
+    .testimonial-section {padding-bottom: 100px;}
+
+    .banner-section .banner-content {padding: 25px 25px;}
+
+
+    footer {margin-top: 65px;}
+    footer .footer-content {padding: 20px 0px;}
+    footer .footer-content ul li {font-size: 16px;}
+    footer .footer-content .line:nth-last-child(2) {margin: 25px 0 40px;}
+    footer .footer-content .contact {flex-wrap: wrap; row-gap: 20px;}
+    footer .footer-content .contact div span {font-size: 15px;}
+    footer .footer-content .last-line {
+        padding: 20px 18px;
+        flex-direction: column; row-gap: 20px; border-radius: 15px;
+    }
+    footer .footer-content .last-line .left {margin-top: -40px;}
+    footer .footer-content .last-line .left img {height: 43px; width: 43px;}
+
+
+/*************************************** Careers Page Media Query *************************************/
+/*****************************************************************************************************/
+    .career-section .main-row ,
+    .about-section .main-row ,
+    .security-section .main-row {
+        flex-direction: column-reverse;
+        padding: 40px;
+    }
+    .career-section .main-row .right-img , 
+    .about-section .main-row .right-img ,
+    .security-section .main-row .right-img  {
+        width: 100%;
+    }
+    .career-section .main-row .left-content .text ,
+    .about-section .main-row .left-content .text ,
+    .security-section .main-row .left-content .text  {
+        width: 100%; position: static;
+        border-radius: 25px;
+    }
+    .career-section .main-row .left-content ,
+    .about-section .main-row .left-content ,
+    .security-section .main-row .left-content {
+        height: 100%; width: 100%;
+        margin-top: -30px;
+    }
+
+    .our-value .main-content {margin-top: 40px; row-gap: 40px;}
+    .our-value .main-content .row {flex-direction: column; row-gap: 40px;}
+    .our-value .main-content .row .col {width: 100%;}
+    .our-value .main-content .row .col span {
+        font-size: 30px; margin-bottom: 10px;
+    }
+
+    .benefit-section .main-content .row .col ,
+    .protect-section .main-content .row .col {
+        flex-direction: column;
+        row-gap: 20px;
+    }   
+    .benefit-section .main-content .row .col .sub-box ,
+    .protect-section .main-content .row .col .sub-box {
+        width: 100%;
+    }
+    .benefit-section .main-content .row .col .left-radius ,
+    .benefit-section .main-content .row .col .right-radius ,
+    .protect-section .main-content .row .col .left-radius ,
+    .protect-section .main-content .row .col .right-radius {
+        border-top-left-radius: 45px;
+        border-top-right-radius: 45px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    .benefit-section .main-content .row .col .sub-box .para ,
+    .protect-section .main-content .row .col .sub-box .para  {
+        min-height: 0px;
+    }
+
+    .job-section .main-content h3 {text-align: left;}
+
+    .our-value .main-content p ,
+    .benefit-section .main-content p ,
+    .job-section .main-content .p-list{
+        text-align: left;
+    }
+
+/*************************************** About Page Media Query **************************************/
+/*****************************************************************************************************/
+    .about-section .main-row .left-content .text {text-align: center;}
+
+    .mission-section .main-content .row .img1 ,
+    .mission-section .main-content .row .img2 {
+        display: none;
+    }
+    .mission-section .main-content .row .img1-mb ,
+    .mission-section .main-content .row .img2-mb {
+        display: block;
+    }
+    .mission-section .main-content .row .img-box ,
+    .mission-section .main-content .row .text-box{
+        width: 70%;
+    }
+
+    .press-release-section .main-content .col h3 ,
+    .press-release-section .main-content .col p {
+        text-align: left;
+    }
+}
+
+@media (max-width : 576px) {
+/*************************************** Home Page Media Query ***************************************/
+/*****************************************************************************************************/
+    .txt-btn-box {margin-top: 10px; flex-direction: column; justify-content: center; align-items: center;}
+    .txt-btn-box p {width: 100%;}
+    .txt-btn-box .btn {padding: 10px; margin-top: 15px;}
+    .sec-mt-50 {margin-top: 50px;}
+
+    .night-toggle {right: 140px; top: 48px; z-index: 1;}
+
+    header::before , header.header-vector::before {width: 410px;}
+    header nav {padding: 25px 0;}
+    .logo img {height: 32px; width: 32px;}
+    .logo span {font-size: 19px; margin-left: 5px;}
+    .hamburger {
+        background-color: var(--text-span);padding: 14px 17px;
+        border-radius: 25px; display: inline;
+    }
+    .hamburger-box {width: 32px;}
+    .hamburger-inner, .hamburger-inner::before {width: 32px;}
+
+    .home-section .container .main .left-text .upper-box p {
+        width: 300px; padding: 14px 10px;
+    }
+    .home-section .container .main .right-img ,
+    .home-section .container .main .right-img.Day-right-img {
+        height: 600px;
+    }
+    .home-section .container .main .right-img::after ,
+    .home-section .container .main .right-img.Day-right-img-vector::after {
+        width: 280px; top: 60px;
+    }
+
+    .our-product-section .bottom-content {padding: 0 60px;}
+
+    .cases-section .main-content .row .upper-col::before,
+    .cases-section .main-content .row .upper-col.cases-vector1::before ,
+    .cases-section .main-content .row .lower-col::before ,
+    .cases-section .main-content .row .lower-col.cases-vector2::before {
+        height: 170px; width: 140px;
+        background-size: contain;
+    }
+    .cases-section .main-content .row .col-common .main-box .sub-box {width: 32%;}
+
+    .features-section .main-content .main-row .left-col .middle-btn {margin: 0px 10px;}
+    .features-section .main-content .main-row .left-col .bottom-btn {margin-top: 10px;}
+    .features-section .main-content .main-row .right-col .sub-row {
+        flex-direction: column; row-gap: 20px;
+    }
+    .features-section .main-content .main-row .right-col .sub-row .sub-right-col {
+        width: 100%; padding: 25px 25px 35px 25px;
+    }
+
+    .FAQ-section .main-content {row-gap: 30px;}
+    .FAQ-section .main-content .row {flex-direction: column;  row-gap: 30px;}
+    .FAQ-section .main-content .row .col {width: 100%; height: 100%; padding: 40px 30px;}
+    .FAQ-section .main-content .row .col .line {margin: 30px 0;}
+    .FAQ-section .main-content .row .col .para {-webkit-text-fill-color: currentColor;}
+
+    .testimonial-section .main-content .box {
+        border: 1px solid var(--btn-border); margin: 0 25px;
+        padding: 30px 30px; border-radius: 15px;
+    }
+
+    .banner-section .banner-content {flex-direction: column; padding: 30px 25px;}
+    .banner-section .banner-content::before ,
+    .banner-section .banner-content.banner-vector::before {background-size: contain; 
+        height: 200px; width: 220px;}
+    .banner-section .banner-content .text {width: 100%;}
+    .banner-section .banner-content .text h2 {margin-bottom: 20px;}
+    .banner-section .banner-content .text p {margin-bottom: 25px;}
+
+    footer .footer-content .line:nth-last-child(2) {margin: 25px 0 40px;}
+    footer .footer-content .contact {flex-wrap: wrap; row-gap: 20px;}
+    footer .footer-content .last-line {
+        padding: 20px 18px;
+        flex-direction: column; row-gap: 20px; border-radius: 15px;}
+    footer .footer-content .last-line .left {margin-top: -40px;}
+    footer .footer-content .last-line .left img {height: 43px; width: 43px;}
+    
+    .slick-prev {left: 37%;}
+    .slick-next {right: 41%;}
+    slick-prev:before{height: 25px; width: 25px;}
+    .slick-prev:before, .slick-next:before {
+        height: 25px; width: 25px;}
+
+
+/*************************************** Careers Page Media Query *************************************/
+/*****************************************************************************************************/
+    .career-section .main-row .right-img ,
+    .about-section .main-row .right-img ,
+    .security-section .main-row .right-img {
+        height: 300px;}
+    .career-section .main-row ,
+    .about-section .main-row ,
+    .security-section .main-row {
+        padding: 30px;}
+    .career-section h1 {font-size: 30px; line-height: 35px;}
+    .our-value .main-content .row .col span {
+        font-size: 26px; margin-bottom: 15px;}
+
+    .benefit-section .main-content ,
+    .protect-section .main-content {
+        margin-top: 50px;}
+    .benefit-section h3 , 
+    .protect-section h3 {
+        font-size: 19px; text-align: left;}
+
+    .job-section .main-content .col .span-box ,
+    .press-release-section .main-content .col .span-box {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .job-section .main-content .col span + span ,
+    .press-release-section .main-content .col span + span {
+        margin-top: 6px; margin-left: 0;}
+
+    .job-section .main-content .col h3 {font-size: 24px;}
+
+
+/*************************************** About Page Media Query *************************************/
+/*****************************************************************************************************/
+    .mission-section .main-content .row .img-box ,
+    .mission-section .main-content .row .text-box {
+        width: 80%;}
+    .mission-section .main-content .row .text-box ,
+    .mission-section .main-content .second-row .text-box {
+        padding: 20px 0 0 0;}
+    .mission-section .main-content {margin-top: 40px;}
+    .mission-section .main-content .row .text-box h3 {font-size: 30px;}
+
+    .press-release-section .main-content {margin-top: 40px; row-gap: 30px;}
+    .press-release-section .main-content .col {padding: 30px;}
+    .press-release-section .main-content .col h3 {
+        margin: 30px 0 20px;}
+
+
+/*************************************** Security Page Media Query ************************************/
+/*****************************************************************************************************/
+    .protect-section .main-content .row::before {height: 65%;}
+    .protect-section .main-content .row {padding: 30px 30px 0 30px;}
+}
+
+@media (max-width : 425px) {
+/*************************************** Home Page Media Query ***************************************/
+/*****************************************************************************************************/
+    h1 {font-size: 28px; line-height: 42px; text-align: center;}
+    h2 {font-size: 28px; text-align: center; line-height: 40px;}
+    h3 {font-size: 20px; text-align: left;}
+    h4 {font-size: 18px; text-align: center;}
+    p {font-size: 14px; line-height: 23px; text-align: center;}
+    .h2-p-gap {margin-bottom: 10px;}
+    .sec-mt-75 {margin-top: 75px;}
+    .primary-btn {font-size: 14px; padding: 14px 22px 14px 22px;}
+    .secondary-btn {font-size: 14px; padding: 12px 20px 12px 20px;}
+    .sec-mt-50 {margin-top: 50px;}
+
+
+    .night-toggle {right: 120px; top: 57px;}
+
+    header nav {padding: 35px 0;}
+    header::before , header.header-vector::before {height: 120px; width: 265px;}
+    header nav .container .row .menu ul {padding: 20px;}
+
+    .home-section .container .main .right-img ,
+    .home-section .container .main .right-img.Day-right-img {
+        background-size: 100% 90%;
+        height: 420px;
+    }
+    .home-section .container .main .right-img::after ,
+    .home-section .container .main .right-img.Day-right-img-vector::after {
+        right: calc(5vw - 42px);
+        width: 260px; top: 30px;}
+
+    .our-product-section .bottom-content {padding: 0;}
+    .our-product-section .bottom-content .box h3 {text-align: center;}
+    .cases-section .main-content .row .col-bg {padding: 15px;}
+    .cases-section .main-content .row .col .sub-col {padding: 15px; height: 165px;}
+    .cases-section .main-content .row .col-common .main-box {
+        flex-direction: column; row-gap: 50px;
+    }
+    .cases-section .main-content .row .col-common .main-box .sub-box {width: 100%;}
+    .cases-section .main-content .row .col .sub-col img {height: 60px; width: 60px;}
+    .cases-section .main-content .row .col-common button {margin: 20px 0;}
+    .cases-section .main-content .row .col .sub-col h4 {font-size: 14px;}
+    .cases-section .main-content .row .col-common h3 {text-align: center;}
+
+    
+
+    .FAQ-section .main-content {margin-top: 30px;}
+    .FAQ-section .main-content .row .col {padding: 40px 20px;}
+
+    .testimonial-section .main-content .box {padding: 20px 20px;}
+    .testimonial-section .main-content .box .upper-img {margin-bottom: 15px;}
+
+
+    .banner-section .banner-content::before {height: 155px; width: 180px;}
+    .banner-section .banner-content {padding: 30px 35px;}
+    .banner-section .banner-content .text h2 {font-size: 24px; line-height: 35px;}
+
+
+    footer .footer-content {padding: 30px 0px;}
+    footer .footer-content ul {margin-top: 25px;}
+    footer .footer-content .line:nth-last-child(2) {margin: 25px 0 50px;}
+
+    .para {text-align: center;}
+
+
+/*************************************** Careers Page Media Query *************************************/
+/*****************************************************************************************************/
+    .career-section .main-row ,
+    .about-section .main-row ,
+    .security-section .main-row {
+        padding: 20px;
+        border-radius: 15px;
+    }
+    .career-section .main-row .right-img ,
+    .about-section .main-row .right-img ,
+    .security-section .main-row .right-img  {
+        height: 230px;
+    }
+    .career-section .main-row .right-img::before ,
+    .about-section .main-row .right-img::before ,
+    .security-section .main-row .right-img::before {
+        height: 225px;
+        width: 225px;
+    }
+    .career-section .main-row .left-content .text ,
+    .about-section .main-row .left-content .text ,
+    .security-section .main-row .left-content .text {
+        padding: 15px;
+    }
+
+    .benefit-section .main-content ,
+    .protect-section .main-content ,
+    .job-section .main-content {
+        margin-top: 40px;
+    }
+    .benefit-section .main-content .row .col .sub-box .upper-line , 
+    .protect-section .main-content .row .col .sub-box .upper-line {
+        margin-bottom: 20px;
+    }
+    .benefit-section .main-content .row .col .sub-box .upper-line img ,
+    .protect-section .main-content .row .col .sub-box .upper-line img {
+        height: 65px;
+        width: 65px;
+        margin-right: 20px;
+    }
+
+    .job-section .main-content .col {padding: 30px 25px;}
+    .job-section .main-content .col h3 {font-size: 22px;}
+    .job-section .main-content .col h4 {text-align: left; font-size: 18px;}
+
+
+/*************************************** About Page Media Query **************************************/
+/*****************************************************************************************************/
+    .about-section .main-row .left-content .text .first-line {font-size: 17px;}
+    .mission-section .main-content .row .img-box ,
+    .mission-section .main-content .row .text-box {
+        width: 100%;
+    }
+    .mission-section .main-content .row .text-box h3 {font-size: 28px; margin-bottom: 10px;}
+    .press-release-section .main-content .col {padding: 20px;}
+    .press-release-section .main-content {row-gap: 25px;}
+
+
+/*************************************** Security Page Media Query ************************************/
+/*****************************************************************************************************/
+    .protect-section .main-content .row::before {height: 65%; display: none;}
+    .protect-section .main-content .row {padding: 0;}
+}
+
+@media (max-width : 375px) {
+    .features-section .main-content .main-row .left-col .primary-btn:nth-child(1) {margin-bottom: 10px;}
+}
+
+@media (max-width : 320px) {
+    h3 {font-size: 18px;}
+    .secondary-btn {padding: 9px 14px 9px 14px;}
+    .slick-next {right: 32%;}
+    .slick-prev {left: 25%;}
+   
+    .night-toggle {right: 98px;}
+    .logo span {font-size: 18px;}
+}
